@@ -77,7 +77,7 @@ object Scaffold : Module() {
             }
 
             if (towering) {
-                if (mc.player.posY <= blockPos.y + 1.0f) {
+                if (mc.player.posY <= blockPos.getY() + 1.0f) {
                     return@listener
                 }
             }
